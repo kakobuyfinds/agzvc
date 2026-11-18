@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sugargoo spreadsheet | Compare Shoes, Hoodies &amp; Tees</title>
+  <meta name="description" content="Browse the Sugargoo spreadsheet guide with real HipobuyFind listings, CNY prices and USD estimates. Compare product details, sizing and shipping before ordering.">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sugargoo spreadsheet | Compare Shoes, Hoodies &amp; Tees">
+  <meta property="og:description" content="Compare real HipobuyFind catalogue listings, check reference prices and plan your order.">
+  <!--
+    Filename: index.html
+    Search results reviewed for “Sugargoo spreadsheet”:
+    https://www.sugargoo.work/spreadsheet/ — category filters and spreadsheet rows.
+    https://www.sugargooo.com/ — category browsing, QC imagery and shopping links.
+    https://sugargo.net/ and https://sugargoo.org/ — additional spreadsheet landing pages.
+    Search positions vary by location and time. This page adds a searchable,
+    server-independent catalogue extract, clear price units, direct source
+    links and item-specific checks before ordering.
+    Catalogue snapshot: https://hipobuyfind.com/
+    Indexing status: not submitted. The public deployment URL was not supplied.
+    After deployment, add its absolute self-referencing canonical URL, then
+    request indexing in Google Search Console URL Inspection and submit the
+    URL in Bing Webmaster Tools for the verified host.
+    https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl
+    https://www.bing.com/webmasters/help/URL-Submission-62f2860b
+  -->
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #15241e;
+      --muted: #4e6158;
+      --deep: #122e24;
+      --green: #21543f;
+      --lime: #d9fa83;
+      --paper: #f6f7f0;
+      --line: #d9e0d4;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 1rem/1.6 "DM Sans", system-ui, sans-serif; }
+    a { color: var(--green); text-underline-offset: .2em; }
+    a:hover { text-decoration-thickness: 2px; }
+    :focus-visible { outline: 3px solid #a36723; outline-offset: 4px; }
+    .wrap { width: min(1120px, calc(100% - 2rem)); margin-inline: auto; }
+    .skip { position: absolute; top: .5rem; left: .5rem; padding: .6rem 1rem; background: white; transform: translateY(-150%); z-index: 1; }
+    .skip:focus { transform: translateY(0); }
+    header { background: var(--deep); color: white; }
+    .bar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .65rem 1.5rem; padding-block: 1rem; }
+    .brand { font-weight: 750; letter-spacing: -.025em; color: white; text-decoration: none; }
+    nav { display: flex; flex-wrap: wrap; gap: .5rem 1.2rem; }
+    nav a { color: #e2eddf; font-size: .9rem; }
+    .hero {
+      text-align: center;
+      padding: clamp(3rem, 8vw, 7rem) 1rem;
+      background: radial-gradient(ellipse at 50% 10%, #315d42 0%, transparent 66%), var(--deep);
+    }
+    h1, h2, h3, p { margin-top: 0; }
+    h1, h2 { line-height: 1.06; letter-spacing: -.05em; }
+    h1 { font-size: clamp(2.7rem, 8vw, 6.3rem); margin-bottom: 1.15rem; }
+    h2 { font-size: clamp(2rem, 5vw, 3.5rem); margin-bottom: .65rem; }
+    .hero p { color: #e2eddf; max-width: 38rem; margin-inline: auto; }
+    .actions { display: flex; justify-content: center; flex-wrap: wrap; gap: .75rem; margin-top: 1.65rem; }
+    .button { display: inline-flex; align-items: center; min-height: 48px; border: 1px solid var(--lime); border-radius: .7rem; padding: .55rem 1.1rem; font-weight: 750; text-decoration: none; }
+    .primary { background: var(--lime); color: var(--deep); }
+    .secondary { color: white; border-color: #a9bdac; }
+    .button:hover { box-shadow: 0 0 0 2px #f6f7f0; }
+    section { padding-block: clamp(2.4rem, 6vw, 4.5rem); }
+    .intro { max-width: 46rem; color: var(--muted); }
+    .controls { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 1.5rem; }
+    .controls[hidden] { display: none; }
+    label { display: grid; gap: .25rem; font-size: .9rem; font-weight: 700; }
+    label:first-child { flex: 2 1 15rem; }
+    label:not(:first-child) { flex: 1 1 10rem; }
+    input, select { width: 100%; min-width: 0; min-height: 45px; border: 1px solid #849589; border-radius: .55rem; padding: .55rem .75rem; background: white; color: var(--ink); font: inherit; }
+    .result { margin: .75rem 0; color: var(--muted); min-height: 1.6em; }
+    .table-shell { overflow-x: auto; border: 1px solid var(--line); border-radius: .85rem; background: white; }
+    table { width: 100%; min-width: 650px; border-collapse: collapse; }
+    caption { text-align: left; padding: .8rem 1rem; font-size: .9rem; color: var(--muted); }
+    th, td { padding: .8rem 1rem; text-align: left; vertical-align: top; border-top: 1px solid var(--line); }
+    thead { background: #e9f0df; }
+    tbody th { font-weight: 700; }
+    tbody a { display: inline-block; }
+    .amount { white-space: nowrap; font-variant-numeric: tabular-nums; }
+    .band { background: #e9f0df; }
+    .steps { list-style-position: inside; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); padding: 0; gap: 1rem; margin: 1.5rem 0 0; }
+    .steps li { background: white; border: 1px solid var(--line); padding: 1.2rem; border-radius: .8rem; }
+    .steps li::marker { color: var(--green); font-weight: 800; }
+    .steps p { margin: .45rem 0 0; color: var(--muted); }
+    details { padding: .85rem 0; border-bottom: 1px solid var(--line); }
+    summary { cursor: pointer; font-weight: 750; }
+    details p { margin: .5rem 0 0; color: var(--muted); }
+    footer { border-top: 1px solid var(--line); padding: 1.5rem 0; color: var(--muted); font-size: .9rem; }
+    footer p { margin: 0; }
+  </style>
+<link rel="canonical" href="https://kakobuyfinds.github.io/agzvc/">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header>
+    <div class="wrap bar">
+      <a class="brand" href="#home">Sugargoo spreadsheet</a>
+      <nav aria-label="Main navigation">
+        <a href="#catalogue">Catalogue</a>
+        <a href="#ordering">Before you order</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+    <div class="hero" id="home">
+      <h1>Sugargoo spreadsheet</h1>
+      <p>Compare sneakers, hoodies and tees from HipobuyFind. See the listed price in yuan and an approximate U.S. dollar equivalent before opening the product page.</p>
+      <div class="actions">
+        <a class="button primary" href="https://hipobuyfind.com">Sugargoo spreadsheet</a>
+        <a class="button secondary" href="https://hipobuyfind.com">Buy it now</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="wrap" id="catalogue" aria-labelledby="catalogue-title">
+      <h2 id="catalogue-title">Compare catalogue listings</h2>
+      <p class="intro">Selected listings from HipobuyFind. Check each product page for current price and availability. The USD figures are reference conversions and exclude shipping, taxes and agent fees.</p>
+
+      <div class="controls" id="controls" hidden>
+        <label for="search">Find a product
+          <input type="search" id="search" placeholder="Try canvas, fleece or an item ID" aria-controls="products">
+        </label>
+        <label for="category">Category
+          <select id="category" aria-controls="products">
+            <option value="">All categories</option>
+            <option value="Shoes">Shoes</option>
+            <option value="Hoodies &amp; sweaters">Hoodies &amp; sweaters</option>
+            <option value="T-shirts">T-shirts</option>
+          </select>
+        </label>
+        <label for="sort">Sort by
+          <select id="sort" aria-controls="products">
+            <option value="default">Catalogue order</option>
+            <option value="asc">Price, low to high</option>
+            <option value="desc">Price, high to low</option>
+          </select>
+        </label>
+      </div>
+      <p class="result" id="result" role="status" hidden></p>
+
+      <div class="table-shell" role="region" aria-labelledby="catalogue-title" tabindex="0">
+        <table id="products">
+          <caption>HipobuyFind catalogue snapshot</caption>
+          <thead>
+            <tr>
+              <th scope="col">Product</th>
+              <th scope="col">Category</th>
+              <th scope="col">CNY</th>
+              <th scope="col">Approx. USD</th>
+              <th scope="col">Item ID</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><a href="https://hipobuyfind.com/goods-148191.html">Cream Chunky Sneakers with Wide Laces</a></th>
+              <td>Shoes</td><td class="amount">¥350.00</td><td class="amount">$48.61</td><td>148191</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="https://hipobuyfind.com/goods-148188.html">Black Canvas Low-Top Sneakers with Gum Sole</a></th>
+              <td>Shoes</td><td class="amount">¥450.00</td><td class="amount">$62.50</td><td>148188</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="https://hipobuyfind.com/goods-154917.html">Fleece-Lined Hoodie</a></th>
+              <td>Hoodies &amp; sweaters</td><td class="amount">¥170.00</td><td class="amount">$23.61</td><td>154917</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="https://hipobuyfind.com/goods-154916.html">Crewneck Sweatshirt</a></th>
+              <td>Hoodies &amp; sweaters</td><td class="amount">¥150.00</td><td class="amount">$20.83</td><td>154916</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="https://hipobuyfind.com/goods-154920.html">Graphic Short-Sleeve T-Shirt</a></th>
+              <td>T-shirts</td><td class="amount">¥105.00</td><td class="amount">$14.58</td><td>154920</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <div class="band">
+      <section class="wrap" id="ordering" aria-labelledby="ordering-title">
+        <h2 id="ordering-title">What to check before ordering</h2>
+        <ol class="steps">
+          <li>
+            <strong>Match the variant</strong>
+            <p>Compare the seller’s insole length for sneakers or chest width and garment length for hoodies and tees against an item you already own.</p>
+          </li>
+          <li>
+            <strong>Check agent eligibility</strong>
+            <p>If you plan to use Sugargoo, find the original marketplace link on the product page, then confirm that Sugargoo can accept that link and ship the item to your destination.</p>
+          </li>
+          <li>
+            <strong>Estimate the total</strong>
+            <p>Add domestic delivery, agent or payment fees, international shipping and any applicable taxes. For bulky shoes, check whether your shipping line charges by parcel dimensions.</p>
+          </li>
+          <li>
+            <strong>Review warehouse photos</strong>
+            <p>Where quality-control photos are available, match the colour and size label to your order. Check the seller’s return window before approving shipment.</p>
+          </li>
+        </ol>
+      </section>
+    </div>
+
+    <section class="wrap" id="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title">Frequently asked questions</h2>
+      <details>
+        <summary>What is a Sugargoo spreadsheet?</summary>
+        <p>It is a product discovery list that helps shoppers compare listings before checking whether they can order through Sugargoo. This independent guide uses HipobuyFind as the catalogue source.</p>
+      </details>
+      <details>
+        <summary>Where do the buttons and product links go?</summary>
+        <p>Both main buttons open the HipobuyFind homepage. Product names open the corresponding HipobuyFind listing so you can verify the item ID, variants and current details.</p>
+      </details>
+      <details>
+        <summary>How should I compare CNY and USD prices?</summary>
+        <p>Use the CNY column to compare catalogue prices. Use the USD column for budgeting, then check the exchange rate and charges displayed by your payment provider at checkout.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Independent Sugargoo spreadsheet guide. Catalogue source <a href="https://hipobuyfind.com">HipobuyFind</a>.</p>
+    </div>
+  </footer>
+
+  <script>
+    (() => {
+      const controls = document.getElementById("controls");
+      const search = document.getElementById("search");
+      const category = document.getElementById("category");
+      const sort = document.getElementById("sort");
+      const result = document.getElementById("result");
+      const body = document.querySelector("#products tbody");
+      const items = Array.from(body.rows, (row) => ({
+        row,
+        name: row.cells[0].textContent.toLowerCase(),
+        category: row.cells[1].textContent,
+        price: Number(row.cells[2].textContent.replace(/[^\d.]/g, "")),
+        id: row.cells[4].textContent
+      }));
+
+      function updateCatalogue() {
+        const words = search.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+        const ordered = [...items];
+        if (sort.value === "asc") ordered.sort((a, b) => a.price - b.price);
+        if (sort.value === "desc") ordered.sort((a, b) => b.price - a.price);
+
+        let visible = 0;
+        for (const item of ordered) {
+          const searchable = `${item.name} ${item.category.toLowerCase()} ${item.id}`;
+          const matchesCategory = !category.value || item.category === category.value;
+          const matchesSearch = words.every((word) => searchable.includes(word));
+          item.row.hidden = !(matchesCategory && matchesSearch);
+          if (!item.row.hidden) visible += 1;
+          body.append(item.row);
+        }
+
+        result.textContent = visible
+          ? `${visible} of ${items.length} listings shown`
+          : "No matching listings. Try another search or choose All categories.";
+      }
+
+      controls.hidden = false;
+      result.hidden = false;
+      search.addEventListener("input", updateCatalogue);
+      category.addEventListener("change", updateCatalogue);
+      sort.addEventListener("change", updateCatalogue);
+      updateCatalogue();
+    })();
+  </script>
+</body>
+</html>
